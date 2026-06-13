@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website | Hadiya Adam Ismaciil</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+            scroll-behavior:smooth;
+        }
+        body{
+            background:#f4f7fb;
+            color:#222;
+        }
+
+        header{
+            background:#0f172a;
+            color:white;
+            padding:20px 8%;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            position:sticky;
+            top:0;
+        }
+            .logo{
+            font-size:28px;
+            font-weight:bold;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin-left:20px;
+            font-size:16px;
+        }
+
+        nav a:hover{
+            color:#38bdf8;
+        }
+           .hero{
+            background:linear-gradient(rgba(15,23,42,.8),rgba(15,23,42,.8)),
+            url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1200');
+            background-size:cover;
+            background-position:center;
+            color:white;
+            text-align:center;
+            padding:70px 20px;
+        }
+
+        .profile{
+            width:180px;
+            height:180px;
+            border-radius:50%;
+            margin:auto;
+            border:5px solid white;
+            background-image:url('https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600');
+            background-size:cover;
+            background-position:center;
+        }
+
+        .hero h1{
+            margin-top:20px;
+            font-size:45px;
+        }
+        .hero p{
+            margin-top:10px;
+            font-size:20px;
+        }
+
+        section{
+            width:90%;
+            max-width:1100px;
+            margin:40px auto;
+            background:white;
+            padding:30px;
+            border-radius:12px;
+            box-shadow:0 4px 10px rgba(0,0,0,.1);
+        }
+h2{
+            color:#0f172a;
+            margin-bottom:15px;
+            border-left:5px solid #38bdf8;
+            padding-left:10px;
+        }
+
+        p{
+            line-height:1.8;
+            margin-bottom:15px;
+            text-align:justify;
+        }
+
+        .grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:20px;
+            margin-top:20px;
+        }
+
+        .card{
+            background:#eef6ff;
+            padding:20px;
+            border-radius:10px;
+        }
+         .card h3{
+            color:#0f172a;
+            margin-bottom:10px;
+        }
+
+        ul{
+            margin-left:20px;
+            line-height:1.8;
+        }
+table{
+            width:100%;
+            border-collapse:collapse;
+            margin-top:15px;
+        }
+
+        table,th,td{
+            border:1px solid #ccc;
+        }
+
+        th,td{
+            padding:10px;
+            text-align:left;
+        }
+th{
+            background:#0f172a;
+            color:white;
+        }
+
+        footer{
+            background:#0f172a;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <div class="logo">Portfolio Website</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#goals">Goals</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+<section class="hero" id="home">
+    <div class="profile"></div>
+    <h1>Hadiya Adam Ismaciil</h1>
+    <p>Student | Lifelong Learner | Future Professional</p>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+
+    <p>
+        Welcome to my personal portfolio website. My name is
+             <strong>Hadiya Adam Ismaciil</strong>. I am a dedicated student who
+        believes that education and continuous learning are the foundations
+        of success. I enjoy reading, discovering new ideas, and developing
+        skills that help me grow both academically and personally.
+    </p>
+
+    <p>
+        My ambition is to become a highly educated and responsible person
+        who contributes positively to society. I believe that every day is
+        an opportunity to learn something new and improve myself.
+           </p>
+</section>
+
+<section id="education">
+    <h2>The Importance of Education</h2>
+
+    <p>
+        Education is one of the most valuable gifts a person can receive.
+        It helps people understand the world around them, make informed
+        decisions, and build a successful future. Through education,
+        individuals gain knowledge, confidence, and the 
+        ability to solve
+        challenges in everyday life.
+    </p>
+
+    <p>
+        A good education not only improves personal development but also
+        strengthens families and communities. Educated people can create
+        opportunities, support innovation, and inspire future generations.
+        Learning should never stop because knowledge continues to grow
+        throughout life.
+    </p>
+
+    <p>
+        Students who work hard and remain patient can achieve their dreams.
+        Success comes from determination, discipline, and the willingness
+        to keep learning even when challenges appear.
+    </p>
+     <h3>Benefits of Education</h3>
+    <ul>
+        <li>Improves knowledge and understanding.</li>
+        <li>Builds confidence and communication skills.</li>
+        <li>Creates better career opportunities.</li>
+        <li>Encourages creativity and innovation.</li>
+        <li>Helps solve problems and make wise decisions.</li>
+        <li>Supports the growth of communities and nations.</li>
+    </ul>
+</section>
+
+<section id="skills">
+    <h2>My Skills & Interests</h2>
+<div class="grid">
+        <div class="card">
+            <h3>📚 Learning</h3>
+            <p>I enjoy studying and discovering new subjects that improve my knowledge and future opportunities.</p>
+        </div>
+
+        <div class="card">
+            <h3>💻 Technology</h3>
+            <p>I am interested in computers, web development, and modern digital technology.</p>
+        </div>
+
+        <div class="card">
+            <h3>🌍 Communication</h3>
+                 <p>I like improving my communication and language skills to connect with people around the world.</p>
+        </div>
+
+        <div class="card">
+            <h3>🎯 Personal Growth</h3>
+            <p>I believe in discipline, hard work, and lifelong self-improvement.</p>
+        </div>
+    </div>
+</section>
+<section id="goals">
+    <h2>My Goals</h2>
+
+    <table>
+        <tr>
+            <th>Goal</th>
+            <th>Description</th>
+        </tr>
+
+        <tr>
+            <td>Complete My Education</td>
+            <td>Study consistently and achieve excellent academic results.</td>
+        </tr>
+<tr>
+            <td>Improve My Skills</td>
+            <td>Develop computer, communication, and problem-solving skills.</td>
+        </tr>
+
+        <tr>
+            <td>Build Projects</td>
+            <td>Create useful websites and digital projects for learning and practice.</td>
+        </tr>
+
+        <tr>
+            <td>Help Society</td>
+            <td>Use my education and experience to make a positive difference.</td>
+        </tr>
+    </table>
+</section>
+<section>
+    <h2>Daily Motivation</h2>
+
+    <p>
+        "Education is the key that opens the doors of opportunity.
+        The more you learn, the stronger and more confident you become.
+        Never stop learning because every lesson brings you one step
+        closer to your dreams."
+    </p>
+</section>
+<section id="contact">
+    <h2>Contact Information</h2>
+
+    <p><strong>Full Name:</strong> Hadiya Adam Ismaciil</p>
+    <p><strong>Portfolio:</strong> Personal Education & Learning Website</p>
+    <p><strong>Country:</strong> Somalia</p>
+    <p><strong>Interests:</strong> Education, Technology, Reading, Web Development, and Personal Growth.</p>
+</section>
+
+<footer>
+    <p>© 2026 Portfolio Website | Designed for Hadiya Adam Ismaciil</p>
+    <p>Learning Today, Leading Tomorrow.</p>
+</footer>
+
+</body>
+</html>
